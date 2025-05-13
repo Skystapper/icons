@@ -1,0 +1,19 @@
+{
+  "name": "pixcap-scraper",
+  "version": "1.0.0",
+  "description": "Script to download 3D icons from PixCap",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "login": "node login.js",
+    "direct": "node direct-download.js",
+    "item": "node item-direct-download.js",
+    "find": "node find-items.js"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "fs-extra": "^11.1.1",
+    "puppeteer": "^22.8.2"
+  },
+  "type": "module"
+}
